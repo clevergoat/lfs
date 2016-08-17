@@ -1,5 +1,7 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class(''); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
-						
+<article id="post-<?php the_ID(); ?>" <?php post_class('column'); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
+					<?php if ( function_exists('yoast_breadcrumb') ) {
+  yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+} ?>	
 	<header class="article-header">
 		<h1 class="page-title"><?php the_title(); ?></h1>
 	</header> <!-- end article header -->

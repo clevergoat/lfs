@@ -10,8 +10,7 @@ Template Name: List Child pages
 
 	<div id="inner-content" class="row">
 
-		<main id="main" class="large-8 medium-12 columns" role="main">
-
+		<main id="main" class="small-collapse medium-uncollapse large-8 medium-12 columns" role="main">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -20,30 +19,27 @@ Template Name: List Child pages
 			<?php endwhile; endif; ?>		
 
 			<?php
-			$parent_id = $posts[0]->ID;
 			$args=array(
-				'post_parent' => $parent_id,
+				'post_parent' => $post->ID,
 				'post_type' => 'page',
 				'post_status' => 'publish',
+				'order' => 'ASC',
+				'orderby' => 'name',
 				'posts_per_page' => -1
 				);
-			$my_query = null;
-			$my_query = new WP_Query($args);
-			if( $my_query->have_posts() ) {
+			$parent = null;
+			$parent = new WP_Query($args);
+			if ( $parent->have_posts() ) : ?>
 
-				while ($my_query->have_posts()) : $my_query->the_post(); ?>
-				
-				<?php
-				$meta = get_post_meta($post->ID, 'Description', true);
-				if ($meta){
+		    <?php while ( $parent->have_posts() ) : $parent->the_post(); ?>
 
-					get_template_part( 'parts/loop', 'child' );
-										
-				}
-				endwhile;
-			}
-wp_reset_query();  // Restore global post data stomped by the_post().
-?>
+		        <?php get_template_part( 'parts/loop', 'child' ); ?>
+
+		    <?php endwhile; ?>
+
+
+
+<?php endif; wp_reset_query(); ?>
 
 </main> <!-- end #main -->
 

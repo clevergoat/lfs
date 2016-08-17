@@ -3,369 +3,389 @@ msgstr ""
 "Project-Id-Version: wp theme bones\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-02 22:11+0100\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: Thu Aug 11 2016 13:26:25 GMT+0200 (CEST)\n"
+"Last-Translator: slagadmin <web@drd.no>\n"
 "Language-Team: fulgor <frag.fulgor@gmail.com>\n"
-"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"Language: Unknown locale\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Poedit-Basepath: /home/fulgor/GIT/bones\n"
-"Last-Translator: \n"
 "X-Poedit-SearchPath-0: /home/fulgor/GIT/bones\n"
+"X-Loco-Target-Locale: en_GB\n"
+"X-Generator: Loco - https://localise.biz/"
 
-#: comments.php:12
-msgid "This post is password protected. Enter the password to view comments."
-msgstr ""
-
-#: comments.php:23
-msgid "Response"
-msgstr ""
-
-#: comments.php:24
-msgid "Responses"
-msgstr ""
-
-#: comments.php:25
-msgid "One"
-msgstr ""
-
-#: comments.php:26
-msgid "No"
-msgstr ""
-
-#: comments.php:32
-msgid "to"
-msgstr ""
-
-#: comments.php:59
-msgid "Comments are closed."
-msgstr ""
-
-#: comments.php:70
-msgid "Leave a Reply"
-msgstr ""
-
-#: comments.php:70
-#, php-format
-msgid "Leave a Reply to %s"
-msgstr ""
-
-#: comments.php:78
-msgid "You must be"
-msgstr ""
-
-#: comments.php:78
-msgid "logged in"
-msgstr ""
-
-#: comments.php:78
-msgid "to post a comment"
-msgstr ""
-
-#: comments.php:86
-msgid "Logged in as"
-msgstr ""
-
-#: comments.php:86
-msgid "Log out of this account"
-msgstr ""
-
-#: comments.php:86
-msgid "Log out"
-msgstr ""
-
-#: comments.php:93
-msgid "Name"
-msgstr ""
-
-#: comments.php:93 comments.php:98
-msgid "(required)"
-msgstr ""
-
-#: comments.php:94
-msgid "Your Name"
-msgstr ""
-
-#: comments.php:98
-msgid "Email"
-msgstr ""
-
-#: comments.php:99
-msgid "Your Email"
-msgstr ""
-
-#: comments.php:100
-msgid "will not be published"
-msgstr ""
-
-#: comments.php:104
-msgid "Website"
-msgstr ""
-
-#: comments.php:105
-msgid "Your Website"
-msgstr ""
-
-#: comments.php:112
-msgid "Your Comment Here..."
-msgstr ""
-
-#: comments.php:115
-msgid "Submit Comment"
-msgstr ""
-
-#: comments.php:120
-msgid "You can use these tags"
-msgstr ""
-
-#: header.php:23
-#, php-format
-msgid "Page %s"
-msgstr ""
-
-#: taxonomy-custom_cat.php:22 archive.php:9
-msgid "Posts Categorized:"
-msgstr ""
-
-#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
-msgid "Posted"
-msgstr ""
-
-#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
-msgid "by"
-msgstr ""
-
-#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
-msgid "filed under"
-msgstr ""
-
-#: taxonomy-custom_cat.php:41
-msgid "Read more"
-msgstr ""
-
-#: functions.php:103
-msgid "(Edit)"
-msgstr ""
-
-#: functions.php:107
-msgid "Your comment is awaiting moderation."
-msgstr ""
-
-#: functions.php:124
-msgid "Search for:"
-msgstr ""
-
-#: functions.php:125
-msgid "Search the Site..."
-msgstr ""
-
-#: 404.php:11
+#: ../../404.php:12
 msgid "Epic 404 - Article Not Found"
 msgstr ""
 
-#: 404.php:17
+#: ../../404.php:16
+msgid "The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+
+#: ../../assets/functions/admin.php:35
+msgid "The RSS Feed is either empty or unavailable."
+msgstr ""
+
+#: ../../assets/functions/admin.php:39
+msgid "j F Y @ g:i a"
+msgstr ""
+
+#: ../../assets/functions/admin.php:51
+msgid "Custom RSS Feed (Customize in admin.php)"
+msgstr ""
+
+#: ../../assets/functions/admin.php:65
 msgid ""
-"The article you were looking for was not found, but maybe try looking again!"
+"<span id=\"footer-thankyou\">Developed by <a href=\"#\" target=\"_blank\">Your "
+"Site Name</a></span>."
 msgstr ""
 
-#: search.php:7
-msgid "Search Results for:"
+#: ../../assets/functions/cleanup.php:74
+msgid "Read"
 msgstr ""
 
-#: search.php:23
-msgid "Read more on"
+#: ../../assets/functions/cleanup.php:74
+msgid "... Read more &raquo;"
 msgstr ""
 
-#: archive.php:13
-msgid "Posts Tagged:"
+#: ../../assets/functions/cleanup.php:96
+#, php-format
+msgid "Posts by %s"
 msgstr ""
 
-#: archive.php:17 author.php:8
-msgid "Posts By:"
+#: ../../assets/functions/comments.php:17
+#, php-format
+msgid "%s"
 msgstr ""
 
-#: archive.php:21
-msgid "Daily Archives:"
+#: ../../assets/functions/comments.php:18
+msgid " F jS, Y - g:ia"
 msgstr ""
 
-#: archive.php:25
-msgid "Monthly Archives:"
+#: ../../assets/functions/comments.php:19
+msgid "(Edit)"
 msgstr ""
 
-#: archive.php:29
-msgid "Yearly Archives:"
+#: ../../assets/functions/comments.php:23
+msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: single-custom_type.php:43
-msgid "Custom Tags"
-msgstr ""
-
-#: embed-tags.php:3
-msgid "Tag"
-msgstr ""
-
-#: embed-tags.php:3
-msgid "Tags"
-msgstr ""
-
-#: image.php:20
-msgid "Read the rest of this entry"
-msgstr ""
-
-#: image.php:38
-msgid "Sorry, no attachments matched your criteria."
-msgstr ""
-
-#: embed-prev_next.php:3
-msgid "&laquo; Older Entries"
-msgstr ""
-
-#: embed-prev_next.php:4
-msgid "Newer Entries &raquo;"
-msgstr ""
-
-#: footer.php:9
-msgid "is powered by"
-msgstr ""
-
-#: embed-not_found.php:3
-msgid "Not Found"
-msgstr ""
-
-#: embed-not_found.php:6
-msgid "Sorry, but the requested resource was not found on this site."
-msgstr ""
-
-#: sidebar.php:15
-msgid "Please activate some Widgets."
-msgstr ""
-
-#: assets/bones.php:52
-msgid "Read more &raquo;"
-msgstr ""
-
-#: assets/custom-post-type.php:24
+#: ../../assets/functions/custom-post-type.php:22
 msgid "Custom Types"
 msgstr ""
 
-#: assets/custom-post-type.php:25
+#: ../../assets/functions/custom-post-type.php:23
 msgid "Custom Post"
 msgstr ""
 
-#: assets/custom-post-type.php:26
+#: ../../assets/functions/custom-post-type.php:24
+msgid "All Custom Posts"
+msgstr ""
+
+#: ../../assets/functions/custom-post-type.php:25
 msgid "Add New"
 msgstr ""
 
-#: assets/custom-post-type.php:27
+#: ../../assets/functions/custom-post-type.php:26
 msgid "Add New Custom Type"
 msgstr ""
 
-#: assets/custom-post-type.php:28
+#: ../../assets/functions/custom-post-type.php:27
 msgid "Edit"
 msgstr ""
 
-#: assets/custom-post-type.php:29
+#: ../../assets/functions/custom-post-type.php:28
 msgid "Edit Post Types"
 msgstr ""
 
-#: assets/custom-post-type.php:30
+#: ../../assets/functions/custom-post-type.php:29
 msgid "New Post Type"
 msgstr ""
 
-#: assets/custom-post-type.php:31
+#: ../../assets/functions/custom-post-type.php:30
 msgid "View Post Type"
 msgstr ""
 
-#: assets/custom-post-type.php:32
+#: ../../assets/functions/custom-post-type.php:31
 msgid "Search Post Type"
 msgstr ""
 
-#: assets/custom-post-type.php:33
+#: ../../assets/functions/custom-post-type.php:32
 msgid "Nothing found in the Database."
 msgstr ""
 
-#: assets/custom-post-type.php:34
+#: ../../assets/functions/custom-post-type.php:33
 msgid "Nothing found in Trash"
 msgstr ""
 
-#: assets/custom-post-type.php:37
+#: ../../assets/functions/custom-post-type.php:36
 msgid "This is the example custom post type"
 msgstr ""
 
-#: assets/custom-post-type.php:73
+#: ../../assets/functions/custom-post-type.php:73
 msgid "Custom Categories"
 msgstr ""
 
-#: assets/custom-post-type.php:74
+#: ../../assets/functions/custom-post-type.php:74
 msgid "Custom Category"
 msgstr ""
 
-#: assets/custom-post-type.php:75
+#: ../../assets/functions/custom-post-type.php:75
 msgid "Search Custom Categories"
 msgstr ""
 
-#: assets/custom-post-type.php:76
+#: ../../assets/functions/custom-post-type.php:76
 msgid "All Custom Categories"
 msgstr ""
 
-#: assets/custom-post-type.php:77
+#: ../../assets/functions/custom-post-type.php:77
 msgid "Parent Custom Category"
 msgstr ""
 
-#: assets/custom-post-type.php:78
+#: ../../assets/functions/custom-post-type.php:78
 msgid "Parent Custom Category:"
 msgstr ""
 
-#: assets/custom-post-type.php:79
+#: ../../assets/functions/custom-post-type.php:79
 msgid "Edit Custom Category"
 msgstr ""
 
-#: assets/custom-post-type.php:80
+#: ../../assets/functions/custom-post-type.php:80
 msgid "Update Custom Category"
 msgstr ""
 
-#: assets/custom-post-type.php:81
+#: ../../assets/functions/custom-post-type.php:81
 msgid "Add New Custom Category"
 msgstr ""
 
-#: assets/custom-post-type.php:82
+#: ../../assets/functions/custom-post-type.php:82
 msgid "New Custom Category Name"
 msgstr ""
 
-#: assets/custom-post-type.php:95
+#: ../../assets/functions/custom-post-type.php:96
+msgid "Custom Tags"
+msgstr ""
+
+#: ../../assets/functions/custom-post-type.php:97
 msgid "Custom Tag"
 msgstr ""
 
-#: assets/custom-post-type.php:96
+#: ../../assets/functions/custom-post-type.php:98
 msgid "Search Custom Tags"
 msgstr ""
 
-#: assets/custom-post-type.php:97
+#: ../../assets/functions/custom-post-type.php:99
 msgid "All Custom Tags"
 msgstr ""
 
-#: assets/custom-post-type.php:98
+#: ../../assets/functions/custom-post-type.php:100
 msgid "Parent Custom Tag"
 msgstr ""
 
-#: assets/custom-post-type.php:99
+#: ../../assets/functions/custom-post-type.php:101
 msgid "Parent Custom Tag:"
 msgstr ""
 
-#: assets/custom-post-type.php:100
+#: ../../assets/functions/custom-post-type.php:102
 msgid "Edit Custom Tag"
 msgstr ""
 
-#: assets/custom-post-type.php:101
+#: ../../assets/functions/custom-post-type.php:103
 msgid "Update Custom Tag"
 msgstr ""
 
-#: assets/custom-post-type.php:102
+#: ../../assets/functions/custom-post-type.php:104
 msgid "Add New Custom Tag"
 msgstr ""
 
-#: assets/custom-post-type.php:103
+#: ../../assets/functions/custom-post-type.php:105
 msgid "New Custom Tag Name"
+msgstr ""
+
+#: ../../assets/functions/menu.php:5
+msgid "The Main Menu"
+msgstr ""
+
+#: ../../assets/functions/menu.php:6 ../../assets/functions/menu.php:55
+msgid "Footer Links"
+msgstr ""
+
+#: ../../assets/functions/page-navi.php:35
+msgid "First"
+msgstr ""
+
+#: ../../assets/functions/page-navi.php:39
+msgid "Previous"
+msgstr ""
+
+#: ../../assets/functions/page-navi.php:49
+msgid "Next"
+msgstr ""
+
+#: ../../assets/functions/page-navi.php:52
+msgid "Last"
+msgstr ""
+
+#: ../../assets/functions/related-posts.php:18
+msgid "<h4>Related Posts</h4>"
+msgstr ""
+
+#: ../../assets/functions/sidebar.php:6
+msgid "Sidebar 1"
+msgstr ""
+
+#: ../../assets/functions/sidebar.php:7
+msgid "The first (primary) sidebar."
+msgstr ""
+
+#: ../../assets/functions/sidebar.php:16
+msgid "Offcanvas"
+msgstr ""
+
+#: ../../assets/functions/sidebar.php:17
+msgid "The offcanvas sidebar."
+msgstr ""
+
+#: ../../author.php:15
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../../comments.php:15
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../comments.php:24 ../../comments.php:40
+msgid "Comment navigation"
+msgstr ""
+
+#: ../../comments.php:27 ../../comments.php:43
+msgid "Older Comments"
+msgstr ""
+
+#: ../../comments.php:28 ../../comments.php:44
+msgid "Newer Comments"
+msgstr ""
+
+#: ../../comments.php:56
+msgid "Comments are closed."
+msgstr ""
+
+#. Name of the template
+msgid "List Child pages"
+msgstr ""
+
+#. Name of the template
+msgid "Lokallag"
+msgstr ""
+
+#: ../../parts/content-missing.php:6
+msgid "Sorry, No Results."
+msgstr ""
+
+#: ../../parts/content-missing.php:10
+msgid "Try your search again."
+msgstr ""
+
+#: ../../parts/content-missing.php:18
+msgid "This is the error message in the parts/content-missing.php template."
+msgstr ""
+
+#: ../../parts/content-missing.php:24
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: ../../parts/content-missing.php:28
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: ../../parts/content-missing.php:36
+msgid "This is the error message in the parts/missing-content.php template."
+msgstr ""
+
+#: ../../parts/loop-archive-grid.php:26 ../../parts/loop-archive.php:9
+msgid "Read more..."
+msgstr ""
+
+#: ../../parts/loop-archive.php:13 ../../parts/loop-single.php:17
+msgid "Tags:"
+msgstr ""
+
+#: ../../parts/loop-single.php:16
+msgid "Pages:"
+msgstr ""
+
+#: ../../parts/nav-offcanvas-topbar.php:31
+msgid "Meny"
+msgstr ""
+
+#: ../../parts/nav-offcanvas.php:10 ../../parts/nav-title-bar.php:7
+msgid "Menu"
+msgstr ""
+
+#: ../../search.php:9
+msgid "Search Results for:"
+msgstr ""
+
+#: ../../searchform.php:3
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: ../../searchform.php:4
+msgctxt "jointswp"
+msgid "Search..."
+msgstr ""
+
+#: ../../searchform.php:4
+msgctxt "jointswp"
+msgid "Search for:"
+msgstr ""
+
+#: ../../searchform.php:6
+msgctxt "jointswp"
+msgid "Search"
+msgstr ""
+
+#: ../../sidebar.php:12
+msgid "Please activate some Widgets."
+msgstr ""
+
+#: ../../taxonomy-custom_cat.php:25
+msgid "Posts Categorized:"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width (No Sidebar)"
+msgstr ""
+
+#. Name of the theme
+msgid "LFS"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://www.jointswp.com"
+msgstr ""
+
+#. Description of the theme
+msgid "Tema til LFS"
+msgstr ""
+
+#. Author of the theme
+msgid "DRD"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.drd.no"
 msgstr ""
