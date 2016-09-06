@@ -83,6 +83,26 @@ NAVIGATION STYLES
 	}
 }
 
+.top-bar-right ul li a:hover, .off-canvas ul li a:hover {
+  background-color: $secondary-color;
+}
+
+.is-accordion-submenu-parent > a {
+	&:after {
+		content: '';
+		display: block;
+		width: 0;
+		height: 0;
+		border: inset 6px;
+		border-color: $white transparent transparent;
+		border-top-style: solid;
+		position: absolute;	
+		top: 50%;
+		margin-top: -4px;
+		right: 1rem;
+	}
+}
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -501,6 +521,7 @@ FOOTER STYLES
 	clear: both;
 	margin-top: 1em;
 	background-color: #f0efef;
+	border-top: 1px solid rgba(0, 0, 0, 0.09);
 }
 
 
@@ -619,7 +640,6 @@ FOOTER STYLES
         margin-right: 1rem;
       }
     }
-    
   }
 }
    
@@ -635,6 +655,14 @@ FOOTER STYLES
 /*********************
 LFS CUSTOM
 *********************/
+
+.widget_recent_entries li {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+	padding: 10px 0 10px;
+	&:last-child {
+		border-bottom: none;
+	}
+}
 
 .top-search {
 	margin: 1.25rem;
@@ -658,6 +686,7 @@ LFS CUSTOM
 			right: 0;
 	}
 	.submenu {
+		z-index: 99;
 		margin-top: 0;
 	}
 }
@@ -669,6 +698,11 @@ LFS CUSTOM
 .menu > li:not(.menu-text) > a {
 	padding: 2rem;
 	color: $white;
+	position: relative;
+}
+
+.menu > li .is-submenu-item > a {
+	padding: 1rem 2rem;
 }
 
 .top-bar {
@@ -678,7 +712,7 @@ LFS CUSTOM
 }
 
 .dropdown.menu a {
-	padding: 2rem;
+	padding: 1rem;
 	color: $white;
 	&:hover {
 		background-color: $secondary-color;
@@ -689,6 +723,8 @@ LFS CUSTOM
 	background-color: $primary-color;
 }
 
+
+
 #logo {
 	display: block;
 	background: url(images/Logo-LFS@2x.png) no-repeat;
@@ -697,28 +733,48 @@ LFS CUSTOM
 	margin: 0.75rem 2rem;
 }
 
-.panel {
-	display: block;
-	padding: 0;
-    background-color: #fff;
-    box-shadow: 0 1px 4px rgba(0,0,0,.04);
-    border: 1px solid rgba(0,0,0,.09);
-    border-radius: 5px;
-    margin-bottom: 1.5rem;
-    &:hover {
-    	background-color: #BDD0BA;
-    }
-}
-
 .panel-content {
 	border: none;
 	background-color: none;
-	padding: 0.375rem 1.125rem 0;
+	padding: 0.75rem 1.125rem;
 }
 
+.panel {
+	display: block;
+	/*padding: 10px;*/
+    background-color: #fff;
+    //box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgba(0,0,0,.09);
+    
+    margin-bottom: 1.5rem;
+    &:hover {
+    	background-color: #f8f8f8;
+    }
+    i {
+      font-size: 2rem;
+      line-height: 1;
+      float: left;
+      margin: 0 1rem 0 0;
+      vertical-align: middle;
+    }
+}
+
+.widget_recent_entries {
+	@extend .panel-content;
+	@extend .panel;
+
+}
+
+
 /*********************
-FOUNDATION STYLES
+RESPONSIVE STYLES
 *********************/
+
+@media only screen and (min-width: 40.063em) {
+	#content {
+		min-height: 760px;
+	}
+}
 
 /*********************
 PLUGIN STYLES

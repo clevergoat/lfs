@@ -60,7 +60,7 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fff;
-$body-background: $white;
+$body-background: #f8f8f8;
 $body-font-color: $black;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
@@ -207,7 +207,7 @@ $accordion-content-padding: 1rem;
 // -----------------
 
 $accordionmenu-arrows: true;
-$accordionmenu-arrow-color: $primary-color;
+$accordionmenu-arrow-color: $white;
 
 // 9. Badge
 // --------
@@ -308,7 +308,7 @@ $dropdown-sizes: (
 
 $dropdownmenu-arrows: true;
 $dropdownmenu-arrow-color: $white;
-$dropdownmenu-min-width: 200px;
+$dropdownmenu-min-width: 350px;
 $dropdownmenu-background: $white;
 $dropdownmenu-border: 1px solid $medium-gray;
 
