@@ -3188,6 +3188,66 @@ body.is-reveal-open {
   .reveal.without-overlay {
     position: fixed; }
 
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0; }
+  table thead,
+  table tbody,
+  table tfoot {
+    border: 1px solid #f2f2f2;
+    background-color: #fff; }
+  table caption {
+    font-weight: bold;
+    padding: 0.5rem 0.625rem 0.625rem; }
+  table thead,
+  table tfoot {
+    background: #70936f;
+    color: #fff; }
+    table thead tr,
+    table tfoot tr {
+      background: transparent; }
+    table thead th,
+    table thead td,
+    table tfoot th,
+    table tfoot td {
+      padding: 0.5rem 0.625rem 0.625rem;
+      font-weight: bold;
+      text-align: left; }
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; }
+  table tbody th,
+  table tbody td {
+    padding: 0.5rem 0.625rem 0.625rem; }
+
+@media screen and (max-width: 63.9375em) {
+  table.stack thead {
+    display: none; }
+  table.stack tfoot {
+    display: none; }
+  table.stack tr,
+  table.stack th,
+  table.stack td {
+    display: block; }
+  table.stack td {
+    border-top: 0; } }
+
+table.scroll {
+  display: block;
+  width: 100%;
+  overflow-x: auto; }
+
+table.hover tr:hover {
+  background-color: #fafafa; }
+
+table.hover tr:nth-of-type(even):hover {
+  background-color: #ededed; }
+
+.table-scroll {
+  overflow-x: auto; }
+  .table-scroll table {
+    width: auto; }
+
 .thumbnail {
   border: solid 4px #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
@@ -3706,11 +3766,21 @@ LFS CUSTOM
   background-color: none;
   padding: 0.75rem 1.125rem; }
 
+a .panel-content p, a .widget_recent_entries p {
+  color: #0a0a0a; }
+
+article a img, .column a img, .columns a img {
+  border: 1px solid #e8e8e8;
+  border-bottom: 0; }
+
+img:hover .panel, img:hover .widget_recent_entries {
+  background-color: #f8f8f8; }
+
 .panel, .widget_recent_entries {
   display: block;
   /*padding: 10px;*/
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.09);
+  border: 1px solid #e8e8e8;
   margin-bottom: 1.5rem; }
   .panel:hover, .widget_recent_entries:hover {
     background-color: #f8f8f8; }

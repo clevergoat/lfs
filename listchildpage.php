@@ -10,13 +10,15 @@ Template Name: List Child pages
 
 	<div id="inner-content" class="row">
 
-		<main id="main" class="small-collapse medium-uncollapse large-8 medium-12 columns" role="main">
+		<main id="main" class="large-8 medium-8 columns" data-equalizer data-equalize-on="medium" role="main">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-				<?php get_template_part( 'parts/loop', 'page' ); ?>
+				<header class="article-header">
+					<h1 class="page-title"><?php the_title(); ?></h1>
+				</header> <!-- end article header -->
 
-			<?php endwhile; endif; ?>		
+			<?php endwhile; endif; ?>
 
 			<?php
 			$args=array(
@@ -33,7 +35,9 @@ Template Name: List Child pages
 
 		    <?php while ( $parent->have_posts() ) : $parent->the_post(); ?>
 
-		        <?php get_template_part( 'parts/loop', 'child' ); ?>
+	<?php get_template_part( 'parts/loop', 'child' ); ?>
+
+
 
 		    <?php endwhile; ?>
 

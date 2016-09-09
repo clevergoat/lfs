@@ -739,12 +739,25 @@ LFS CUSTOM
 	padding: 0.75rem 1.125rem;
 }
 
+a .panel-content p {
+	color: $black;
+}
+
+article a img, .column a img {
+	border: 1px solid #e8e8e8;
+	border-bottom: 0;
+}
+
+img:hover .panel {
+	background-color: #f8f8f8;
+}
+
 .panel {
 	display: block;
 	/*padding: 10px;*/
     background-color: #fff;
     //box-shadow: 0 1px 4px rgba(0,0,0,.04);
-    border: 1px solid rgba(0,0,0,.09);
+    border: 1px solid #e8e8e8;
     
     margin-bottom: 1.5rem;
     &:hover {

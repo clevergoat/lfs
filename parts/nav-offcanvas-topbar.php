@@ -16,7 +16,7 @@
 				</ul>
 			</div>
 			<div class="top-bar-left float-left show-for-medium">
-				<?php joints_top_nav(); ?>	
+				<?php joints_top_nav(); ?>
 			</div>
 			<div class="top-bar-right float-right show-for-medium">
 
@@ -33,4 +33,12 @@
 			</div>
 		</div>
 	</div>
-	
+</div>
+<div class="row">
+	<div class="small-12 columns" style="margin: 1rem 0 0">
+
+		<?php if ( ! is_page('Hjem') && function_exists('yoast_breadcrumb') ) {
+		  yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+		} ?>
+</div>
+</div>
