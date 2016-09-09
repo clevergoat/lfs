@@ -1,10 +1,6 @@
 /******************************************************************
-	
-Stylesheet: Main Stylesheet
 
-Here's where the magic happens. Here is where you import
-all of your Sass files so they can compile into one
-CSS file. 
+Stylesheet: Main Stylesheet
 
 ******************************************************************/
 
@@ -42,7 +38,7 @@ CSS file.
 @include foundation-drilldown-menu;
 @include foundation-dropdown;
 @include foundation-dropdown-menu;
-//@include foundation-flex-video;
+@include foundation-flex-video;
 @include foundation-label;
 //@include foundation-media-object;
 @include foundation-menu;

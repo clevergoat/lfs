@@ -44,7 +44,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-	
+
 }
 
 h5, .h5 {
@@ -59,7 +59,7 @@ HEADER STYLES
 		list-style: none;
 	}
 }
-    
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -67,7 +67,7 @@ NAVIGATION STYLES
 	.title-area {
 		z-index: 1;
 	}
-} 
+}
 
 .off-canvas-list {
 	ul {
@@ -96,7 +96,7 @@ NAVIGATION STYLES
 		border: inset 6px;
 		border-color: $white transparent transparent;
 		border-top-style: solid;
-		position: absolute;	
+		position: absolute;
 		top: 50%;
 		margin-top: -4px;
 		right: 1rem;
@@ -114,15 +114,15 @@ POSTS & CONTENT STYLES
 
 .single-title,
 .page-title {
-	
+
 }
 
 .single-title {
-	
+
 }
 
 .page-title {
-	
+
 	// Remove Foundation vcard styling from author page titles
 	.vcard {
 		border: 0px;
@@ -134,37 +134,37 @@ POSTS & CONTENT STYLES
 
 }
 
-// Post meta  
+// Post meta
 .byline {
 	color: #999;
 	time {}
 }
 
-// Entry content  
+// Entry content
 .entry-content {
-	
+
 	img {
 		max-width: 100%;
 		height: auto;
 	}
 
-	.alignleft, img.alignleft { 
-		margin-right: 1.5em; 
-		display: inline; 
-		float: left; 
+	.alignleft, img.alignleft {
+		margin-right: 1.5em;
+		display: inline;
+		float: left;
 	}
-	.alignright, img.alignright { 
-		margin-left: 1.5em; 
-		display: inline; 
-		float: right; 
+	.alignright, img.alignright {
+		margin-left: 1.5em;
+		display: inline;
+		float: right;
 	}
-	.aligncenter, img.aligncenter { 
-		margin-right: auto; 
-		margin-left: auto; 
-		display: block; 
-		clear: both; 
+	.aligncenter, img.aligncenter {
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		clear: both;
 	}
-			
+
 	video, object {
 		max-width: 100%;
 		height: auto;
@@ -176,14 +176,14 @@ POSTS & CONTENT STYLES
 		padding: 10px;
 		}
 
-} 
+}
 
 .wp-caption {
 	max-width: 100%;
 	background: #eee;
 	padding: 5px;
 
-	// Images inside wp-caption  
+	// Images inside wp-caption
 	img {
 		max-width: 100%;
 		margin-bottom: 0;
@@ -195,7 +195,7 @@ POSTS & CONTENT STYLES
 		margin: 4px 0 7px;
 		text-align: center;
 	}
-} 
+}
 
 // Add Foundation styling to password protect button
 .post-password-form input[type="submit"] {
@@ -219,7 +219,7 @@ IMAGE GALLERY STYLES
 
 		dd {}
 
-} 
+}
 
 // Gallery caption styles
 .gallery-caption {}
@@ -272,7 +272,7 @@ COMMENT STYLES
 			.alt {}
 			.odd {}
 			.even {}
-			.depth-1 {}           // Change number for different depth  
+			.depth-1 {}           // Change number for different depth
 			.byuser {}
 			.bypostauthor {}
 			.comment-author-admin {}
@@ -301,7 +301,7 @@ COMMENT STYLES
 	li.depth-4 {}
 	li.depth-5 {}
 
-	// General comment classes  
+	// General comment classes
 	.alt {}
 	.odd {
 	}
@@ -318,7 +318,7 @@ COMMENT STYLES
 	.thread-odd {}
 	.thread-even {}
 
-	// vcard  
+	// vcard
 	.vcard {
 		margin-left: 50px;
 
@@ -355,10 +355,10 @@ COMMENT STYLES
 			background: #fff;
 		}
 
-	} // end .commentlist .vcard  
+	} // end .commentlist .vcard
 
 
-	// comment meta  
+	// comment meta
 	.comment-meta {
 
 		a {}
@@ -371,7 +371,7 @@ COMMENT STYLES
 
 	}
 
-	// comment content  
+	// comment content
 	.comment_content {
 
 		p {
@@ -380,20 +380,20 @@ COMMENT STYLES
 			line-height: 1.5em;
 		}
 
-	} // end .commentlist .comment_content  
+	} // end .commentlist .comment_content
 
-	// comment reply link  
+	// comment reply link
 	.comment-reply-link {
 		float: right;
 
 		&:hover,
 		&:focus {
-		
+
 		}
 
-	} // end .commentlist .comment-reply-link  
+	} // end .commentlist .comment-reply-link
 
-} // end .commentlist  
+} // end .commentlist
 
 /*********************
 COMMENT FORM STYLES
@@ -429,7 +429,7 @@ COMMENT FORM STYLES
 				background: #fff;
 			}
 
-			// form validation  
+			// form validation
 			&:invalid {
 				outline: none;
 				border-color: #fbc2c4;
@@ -457,28 +457,28 @@ COMMENT FORM STYLES
 	}
 }
 
-// comment submit button  
+// comment submit button
 #submit {}
 
-// comment form title  
+// comment form title
 #comment-form-title {
 	margin: 0 0 1.1em;
 }
 
-// cancel comment reply link  
+// cancel comment reply link
 #cancel-comment-reply {
 	a {}
 }
 
-// logged in comments  
+// logged in comments
 .comments-logged-in-as {}
 
-// allowed tags  
+// allowed tags
 #allowed_tags {
 	margin: 1.5em 10px 0.7335em 0;
 }
 
-// No comments  
+// No comments
 .nocomments {
 	margin: 0 20px 1.1em;
 }
@@ -508,7 +508,7 @@ SIDEBARS & ASIDES
 
 			a {}
 
-			// deep nesting  
+			// deep nesting
 			ul {}
 
 		}
@@ -538,7 +538,7 @@ FOOTER STYLES
   		a{
   		color: $dark-gray;
   		padding: 0.25rem;
-  		margin-right: 1rem; 
+  		margin-right: 1rem;
   		}
   		}
   	}
@@ -547,7 +547,7 @@ FOOTER STYLES
   .menu .active > a {
   background-color: inherit;
   }
-  
+
   .inline-list a {
     display: inline-block;
     height: 2rem;
@@ -560,13 +560,13 @@ FOOTER STYLES
     color: #BDD0BA;
     }
   }
-  
+
   .contact {
     list-style-type: none;
     margin: 0;
     text-align: left;
     color: $dark-gray;
-    
+
     li {
       margin-bottom: 1rem;
       a {
@@ -575,12 +575,12 @@ FOOTER STYLES
       color: #BDD0BA;
       }
       }
-      
+
       p {
         padding-left: 5rem;
       }
     }
-    
+
     i {
       position: absolute;
       font-size: 2rem;
@@ -592,48 +592,48 @@ FOOTER STYLES
     }
 
   }
-  
+
   .copywrite {
     color: #8f9296;
     font-size: 0.875rem;
     margin: 0 0 1rem 0;
   }
-  
+
   .about {
   	color: $dark-gray;
     font-size: 1rem;
     margin: 0 0 1rem 0;
   }
-  
+
   .footer-links a {
     list-style: none;
     font-weight: normal;
     color: #fff;
     padding: 3rem 0 2rem;
     margin: 0;
-    
+
     &::after {
       content: "•";
       padding: 0 0.2rem 0 0.4rem;
     }
-    
+
     &:last-child::after {
       content: "";
       padding: 0 0.4rem 0 0.8rem;
     }
   }
-  
+
   @media only screen and (min-width: 40.063em) {
-    
+
     p {
       text-align: left;
     }
-    
+
     .social {
       text-align: left;
       margin: 0;
     }
-    
+
     .contact {
       text-align: left;
       > i {
@@ -642,11 +642,11 @@ FOOTER STYLES
     }
   }
 }
-   
+
 .logo {
   color: #fff;
   font-size: 1.5rem;
-  
+
   i {
     margin-right: 0.5rem;
   }
@@ -728,7 +728,7 @@ LFS CUSTOM
 #logo {
 	display: block;
 	background: url(images/Logo-LFS@2x.png) no-repeat;
-	background-size: 240px 69px; 
+	background-size: 240px 69px;
 	height: 69px;
 	margin: 0.75rem 2rem;
 }
@@ -743,13 +743,13 @@ a .panel-content p {
 	color: $black;
 }
 
-article a img, .column a img {
+.head-image {
+	display: block;
 	border: 1px solid #e8e8e8;
 	border-bottom: 0;
-}
-
-img:hover .panel {
-	background-color: #f8f8f8;
+	&:hover + .panel {
+		background-color: #f8f8f8;
+	}
 }
 
 .panel {
@@ -758,9 +758,9 @@ img:hover .panel {
     background-color: #fff;
     //box-shadow: 0 1px 4px rgba(0,0,0,.04);
     border: 1px solid #e8e8e8;
-    
+
     margin-bottom: 1.5rem;
-    &:hover {
+    &:hover:not(.page) {
     	background-color: #f8f8f8;
     }
     i {
@@ -778,6 +778,23 @@ img:hover .panel {
 
 }
 
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /*********************
 RESPONSIVE STYLES

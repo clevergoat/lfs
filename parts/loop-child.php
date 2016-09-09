@@ -2,8 +2,8 @@
 
 
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('small-12 medium-6 columns'); ?> >
-	<a href="<?php the_permalink() ?>">
+<article id="post-<?php the_ID(); ?>" <?php post_class('small-12 medium-6 columns end'); ?> >
+	<a href="<?php the_permalink() ?>" class="head-image">
 	<?php the_post_thumbnail('full'); ?>
 </a>
 	<a href="<?php the_permalink() ?>" class="panel" data-equalizer-watch >
